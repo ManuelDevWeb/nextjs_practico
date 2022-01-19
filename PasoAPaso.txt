@@ -1,0 +1,5 @@
+• Preparación entorno de trabajo •
+
+1. Crear el proyecto: npx create-next-app storenextjs 
+
+2. 

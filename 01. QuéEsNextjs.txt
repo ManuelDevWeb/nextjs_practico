@@ -1,8 +1,11 @@
-Next.JS.
+** Next.JS. **
 -> Framework sencillo para crear aplicaciones React con SSR. 
--> VueJS y Angular también tienen sus alternativas SSR.
+-> Marco de desarrollo de código abierto construido sobre Node.js 
+   que permite funcionalidades de aplicaciones web basadas en React, 
+   como la representación del lado del servidor y la generación de 
+   sitios web estáticos.
 
-Características principales:
+** Características principales **
 -> Server Side Rendering.
 -> Code Splitting y Lazy Loading a los componentes, de esta forma
    separa el código que no se utiliza en determinado componente,
@@ -11,8 +14,12 @@ Características principales:
 -> Soporte para CSS.
 -> Hot Reload.
 -> URL's Limpias.
+-> Facilidad para aprender.
+-> Optimizado para SEO.
+-> Posibilidad de combinar páginas estáticas junto a páginas dinámicas.
+-> Compatibilidad con todos los recursos de React.
 
-Ventajas:
+** Ventajas **
 -> Nos ahorramos algunas configuraciones de proyectos netos con React.js, no lidiamos
    con la arquitectura de nuestros proyectos.
 -> Un sistema de enrutamiento intuitivo basado en páginas (con soporte para rutas dinámicas)
