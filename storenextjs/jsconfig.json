@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        // Indicando raiz del proyecto
+        "baseUrl": "src",
+        // Alias para importar archivos y evitar tener que salir de las carpetas
+        "paths": {
+            "@pages": ["pages/"]
+        },
+    }
+}

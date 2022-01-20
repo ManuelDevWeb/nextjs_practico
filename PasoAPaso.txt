@@ -2,4 +2,18 @@
 
 1. Crear el proyecto: npx create-next-app storenextjs 
 
-2. 
+2. Crear la capreta: src 
+
+3. Mover a la capreta src los archivos: pages, public y styles
+
+4. Crear el archivo: jsconfig.json
+
+5. Crear el archivo: .eslintignore
+
+6. Modificar el archivo .eslintrc.json por eslintrc.js 
+
+7. Crear el archivo: prettier.config.js
+
+8. Instalar las dependencias: npm i prettier eslint-plugin-prettier eslint-plugin-jsx-a11y eslint-config-prettier eslint-config-next 
+
+9. Modificar el archivo: next.config.js
