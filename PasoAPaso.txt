@@ -17,3 +17,39 @@
 8. Instalar las dependencias: npm i prettier eslint-plugin-prettier eslint-plugin-jsx-a11y eslint-config-prettier eslint-config-next 
 
 9. Modificar el archivo: next.config.js
+
+• Migración de React.js a Next.js • 
+
+10. Configurar el archivo: jsonconfig.json 
+
+11. Trabajar sobre el archivo: src/pages/index.js
+
+12. Instalar la dependencia: npm i sass 
+
+13. Organizar variables en el archivo: src/styles/_vars.scss
+
+14. Trabajar sobre el archivo: src/pages/_app.js
+
+15. Instalar la dependencia: npm i axios
+
+16. Crear el archivo: src/pages/checkout.js
+
+-> Realizar la adaptación de todos los componentes
+
+• Despliegue a Producción • 
+
+17. Crear el archivo: src/pages/_document.js
+
+18. Agregar google Analitics: - Ir al dashboard de Google Analytics 
+                              - Ir al apartado de administrar 
+                              - Crear propiedad
+                              - Copiar las instrucciones de etiquetado (Etiqueta global del sitio web ), 
+                                que estan ubicados apartado Detalles del flujo web
+                              - Agregar los scripts en el _document y _app 
+
+19. Validar errores de sintaxis ejecutando: npm run lint
+
+20. Para organizar los errores de sintaxis, ejecutar y agregar el script: - "link:fix": "eslint src/ --fix"
+                                                                          - npm run lint:fix 
+                                                                          
+21. Ejecutar el script: npm run build y posteriormente, npm run start

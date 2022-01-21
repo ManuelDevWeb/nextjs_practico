@@ -4,7 +4,14 @@
         "baseUrl": "src",
         // Alias para importar archivos y evitar tener que salir de las carpetas
         "paths": {
-            "@pages": ["pages/"]
+            "@pages/*": ["pages/*"],
+            "@components/*": ["components/*"],
+            "@containers/*": ["containers/*"],
+            "@icons/*": ["assets/icons/*"],       
+            "@logos/*": ["assets/logos/*"],     
+            "@context/*": ["context/*"],
+            "@styles/*": ["styles/*"],
+            "@hooks/*": ["hooks/*"],
         },
     }
 }
