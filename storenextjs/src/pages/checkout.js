@@ -1,7 +1,7 @@
-import React, {useContext} from 'react';
+// import {useContext} from 'react';
 import Head from 'next/head';
 // Context
-import { AppContext } from '@context/AppContext';
+// import { AppContext } from '@context/AppContext';
 
 // Importando componentes
 // import { OrderItem } from '@components/OrderItem';
@@ -11,9 +11,9 @@ import styles from '@styles/Checkout.module.scss';
 
 const Checkout = () => {
   // Destructurando elementos a utilizar del context
-  const {
-    state: { cart }
-  } = useContext(AppContext);
+  // const {
+  //   state: { cart }
+  // } = useContext(AppContext);
 
   return (
     <>
